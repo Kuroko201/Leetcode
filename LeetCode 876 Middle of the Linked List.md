@@ -1,4 +1,4 @@
-## Using Tortoise and hare algorithm
+## Using Tortoise and hare algorithm, C++
 ```
 /**
  * Definition for singly-linked list.
