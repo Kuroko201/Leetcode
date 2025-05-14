@@ -56,7 +56,7 @@ public:
         ListNode* curr = head;
 
         while(curr != NULL){
-           ListNode* nextNode = curr->next; // record the next node first.
+           ListNode* nextNode = curr->next; //record the next node first. As curr->next = prev; the pointer will change, we can not enter the next node by curr = curr->next.
            curr->next = prev; // link backward 
            prev = curr; // update the prev(changing the starting point of prev).
            curr = nextNode; // move to the next node
